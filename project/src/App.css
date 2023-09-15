@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+
+header{
+    background-color: lightblue;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.toDoDiv{
+    margin-top: 20px;
+    border: 1px solid lightblue;
+    padding: 20px;
+    width: 250px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.toDoDivArea{
+    display: flex;
+    justify-content: center;
+}
+
+.todoText{
+    border: none;
+}
+
+.todoButton {
+    width: 100px;
+}
+
+.todoButton:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+
+.contentDiv{
+    margin-top: 20px;
+    border: 1px solid lightblue;
+    padding: 20px;
+    width: 500px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+}
